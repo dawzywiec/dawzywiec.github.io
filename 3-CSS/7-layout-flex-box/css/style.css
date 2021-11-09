@@ -68,4 +68,8 @@ body {
     .footer {
         flex-basis: auto;
     }
+
+    .aside-right {
+        order: 1;
+    }
 }
