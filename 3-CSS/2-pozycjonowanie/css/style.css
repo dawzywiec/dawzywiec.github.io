@@ -1,0 +1,25 @@
+div.calosc {
+    position: relative;
+    border: 10px solid #666360;
+    width: 400px;
+    height: 400px;
+    background-color: #a6a9b6;
+}
+
+div div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+div.pomaranczowy {
+    left: 0;
+    bottom: 0;
+    background-color: #ff912e;
+}
+
+div.szary {
+    right: 0;
+    top: 0;
+    background-color: #e4e4e4;
+}

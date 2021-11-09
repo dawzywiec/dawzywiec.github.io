@@ -1,0 +1,43 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    background-color: red;
+}
+
+p#pierwsze {
+    background-color: royalblue;
+}
+
+h2 {
+    background-color: salmon;
+}
+
+p#drugie {
+    background-color: skyblue;
+}
+
+ol {
+    background-color: springgreen;
+}
+
+li#n1 {
+    color: white;
+}
+
+li#n2 {
+    color: purple;
+}
+
+li#n3 {
+    color: green;
+}
+
+li#n4 {
+    color: yellow;
+}
+
+li#n5 {
+    color: brown;
+}
