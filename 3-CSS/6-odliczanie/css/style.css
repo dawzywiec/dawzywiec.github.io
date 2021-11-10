@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.zegar {
+    height: 100vh;
+    width: 100vw;
+    line-height: 100vh;
+    text-align: center;
+    font-size: 100px;
+    background-color: red;
+}
+
+.zegar:before {
+    content: "";
+    animation: zegar 12s infinite;
+}
+
+@keyframes zegar {
+    8% {
+        content: "10";
+    }
+
+    16% {
+        content: "9";
+    }
+
+    24% {
+        content: "8";
+    }
+
+    32% {
+        content: "7";
+    }
+
+    40% {
+        content: "6";
+    }
+
+    48% {
+        content: "5";
+    }
+
+    56% {
+        content: "4";
+    }
+
+    64% {
+        content: "3";
+    }
+
+    72% {
+        content: "2";
+    }
+
+    80% {
+        content: "1";
+    }
+
+    88% {
+        content: "I LOVE CSS :)!";
+    }
+
+    100% {
+        content: "I LOVE CSS :)!";
+    }
+}
