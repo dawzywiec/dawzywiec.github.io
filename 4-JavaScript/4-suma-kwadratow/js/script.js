@@ -3,9 +3,8 @@ function sumaKwadratow(parametr) {
     for (let i = 0; i < parametr.length; i++) {
         wynikSumyKwadratow += Math.pow(parametr[i], 2);
     };
-    console.log(wynikSumyKwadratow);
+    return console.log(wynikSumyKwadratow);
 };
-
 
 let tablica = [0, 1, 2, 3, 4, 5];
 sumaKwadratow(tablica);
