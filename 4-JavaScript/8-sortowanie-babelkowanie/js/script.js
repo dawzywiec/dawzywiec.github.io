@@ -11,7 +11,7 @@ function sortowanieTablicy(tablicaDoSortowania) {
             }
         };
     };
-    console.log(tablicaDoSortowania);
+    return console.log(tablicaDoSortowania);
 };
 
 sortowanieTablicy(tablica);
