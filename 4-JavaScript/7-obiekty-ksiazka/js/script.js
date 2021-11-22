@@ -35,9 +35,9 @@ dodawanieKsiazkiDoTablicy(ksiazka2);
 function iloscPrzeczytanych(parametr) {
     let przeczytano = 0;
     for (let i = 0; i < parametr.length; i++) {
+        parametr[i].opiszKsiazke();
         if (parametr[i].przeczytana == true) {
             przeczytano += 1;
-            parametr[i].opiszKsiazke();
         }
     };
     console.log("Łączna ilość przeczytanych książek: " + przeczytano + ".");
