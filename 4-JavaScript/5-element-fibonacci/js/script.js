@@ -1,16 +1,22 @@
 function ciag(n) {
 
-    if (n >= 0) {
+    if (n == 0) {
+        return console.log(0);
+    } else if (n == 1 || n == 2) {
+        return console.log(1);
+    } else if (n > 2) {
+        let liczba1 = 1;
+        let liczba2 = 1;
         let wynik = 0;
-        for (let i = n; i > 0; i--) {
-            wynik += i;
-        };
-        console.log("Wynik dla " + n + ". liczby ciągu wynosi: " + wynik + ".");
-    } else {
-        console.log("Liczba: " + n + ", jest mniejsza niż 0.");
-    }
-
+        wynik = liczba1 + liczba2;
+        for (let i = 0; i < n - 3; i++) {
+            liczba1 = wynik;
+            wynik = wynik + liczba2;
+            liczba2 = liczba1;
+        }
+        return console.log(wynik);
+    };
 };
 
-let n = 5;
+let n = 8; //Należy wpisac poszukiwana liczbę ciagu.
 ciag(n);
