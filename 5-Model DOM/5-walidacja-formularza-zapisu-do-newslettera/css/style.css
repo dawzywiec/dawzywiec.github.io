@@ -22,6 +22,10 @@ form {
     border-radius: 15px;
 }
 
+label {
+    padding: 10px;
+}
+
 #name,
 #email {
     width: 200px;
