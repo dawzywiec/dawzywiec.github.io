@@ -1,0 +1,26 @@
+span {
+    border: 1px solid black;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 3px;
+}
+
+#p1 {
+    background-color: blue;
+}
+
+#p2 {
+    background-color: yellow;
+}
+
+#p3 {
+    background-color: greenyellow;
+}
+
+#p4 {
+    background-color: red;
+}
+
+#p5 {
+    background-color: orange;
+}
