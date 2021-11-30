@@ -38,6 +38,10 @@ body {
     color: #1e3768;
 }
 
+.open .accordion-title::before {
+    content: "-";
+}
+
 .accordion-content {
     display: none;
 }
