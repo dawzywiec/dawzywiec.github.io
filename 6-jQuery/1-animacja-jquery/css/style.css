@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.relative {
+    position: relative;
+}
+
+.kwadrat {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: 1px solid black;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#napis {
+    opacity: 0;
+    font-size: 18px;
+    margin: 30px 0;
+    text-align: center;
+
+}
