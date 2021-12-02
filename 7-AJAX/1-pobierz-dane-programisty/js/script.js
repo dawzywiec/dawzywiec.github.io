@@ -7,10 +7,10 @@ btn.click(function () {
             if (pobranoDane === 0) {
                 pobranoDane += 1;
                 console.log(data);
-                btn.after('<div id="dane-programisty">Pobrano dane: <ul><li>Imię: ' + data.imie + '</li><li>Nazwisko: ' + data.nazwisko + '</li><li>Zawód: ' + data.zawod + '</li><li>Firma: ' + data.firma + '</ul></div>');
+                btn.after('<div id="dane-programisty">Pobrano dane: <ul><li>Imię: ' + data.imie + '</li><li>Nazwisko: ' + data.nazwisko + '</li><li>Zawód: ' + data.zawod + '</li><li>Firma: ' + data.firma + '</li></ul></div>');
             } else {
                 $('div').remove();
-                btn.after('<div id="dane-programisty">Zaktualizowano dane: <ul><li>Imię: ' + data.imie + '</li><li>Nazwisko: ' + data.nazwisko + '</li><li>Zawód: ' + data.zawod + '</li><li>Firma: ' + data.firma + '</ul></div>');
+                btn.after('<div id="dane-programisty">Zaktualizowano dane: <ul><li>Imię: ' + data.imie + '</li><li>Nazwisko: ' + data.nazwisko + '</li><li>Zawód: ' + data.zawod + '</li><li>Firma: ' + data.firma + '</li>/ul></div>');
             };
         })
         .fail(function (error) {
