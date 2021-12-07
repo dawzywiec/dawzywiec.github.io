@@ -1,0 +1,23 @@
+div {
+    text-align: center;
+}
+
+i {
+    border: 1px solid rgb(155, 155, 155);
+    background-color: rgb(247, 247, 247);
+    border-radius: 50%;
+    font-size: 50px;
+    color: #ff8352;
+    width: 150px;
+    height: 150px;
+    padding: 50px 0;
+}
+
+p {
+    font-size: 30px;
+}
+
+/* Czemu bootstrap zmienia mi font-size mimo, ze h1 nie ma dodanej klasy?*/
+h1 {font-size: 50px;
+text-decoration: underline;
+margin-bottom: 20px;} 
