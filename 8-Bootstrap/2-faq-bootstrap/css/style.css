@@ -1,0 +1,13 @@
+.btn,
+h1 {
+    color: brown;
+}
+
+.btn:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0;
+}
