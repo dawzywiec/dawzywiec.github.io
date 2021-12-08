@@ -1,13 +1,13 @@
-.btn,
+.accordion-button,
 h1 {
     color: brown;
 }
 
-.btn:hover {
+.accordion-button:hover {
     color: blue;
     text-decoration: underline;
 }
 
-.btn:focus {
+.accordion-button:focus {
     box-shadow: 0 0 0 0;
 }
