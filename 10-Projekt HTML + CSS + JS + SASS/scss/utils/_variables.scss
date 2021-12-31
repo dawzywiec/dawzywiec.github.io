@@ -1,0 +1,78 @@
+// font-family
+@import url('https://fonts.googleapis.com/css2?family=Bellota&family=Roboto&display=swap');
+$font-family-roboto: 'Roboto',
+sans-serif;
+$font-faily-bellota: 'Bellota',
+cursive;
+
+// font-size
+$basic-font-size: 16px;
+$nav-font-size: $basic-font-size - 1;
+$section-h-font-size: $basic-font-size+26;
+$main-h-font-size: $basic-font-size+34;
+$box-h-font-size: $basic-font-size+6;
+
+// colors
+$white: #fff;
+$blue: #1ba4ce;
+$blue7: rgba($color: $blue, $alpha: 0.7);
+$voilet: #473452;
+$dark-grey: #30383b;
+$grey: #687479;
+$error-color: red;
+
+// padding
+
+$mobile-sections-padding-x: 3%;
+$mobile-sections-padding-y: 3%;
+$mobile-sections-padding: $mobile-sections-padding-y $mobile-sections-padding-x;
+
+$small-sections-padding-x: 5%;
+$small-sections-padding-y: 3%;
+$small-sections-padding: $small-sections-padding-y $small-sections-padding-x;
+
+$medium-sections-padding-x: 7%;
+$medium-sections-padding-y: 3%;
+$medium-sections-padding: $medium-sections-padding-y $medium-sections-padding-x;
+
+$standard-sections-padding-x: 15%;
+$standard-sections-padding-y: 3%;
+$standard-sections-padding: $standard-sections-padding-y $standard-sections-padding-x;
+
+$standard-blog-padding-x: 10%;
+$standard-blog-padding-y: 50px;
+$standard-blog-padding: $standard-blog-padding-y $standard-blog-padding-x;
+
+$standard-element-padding-x: 25px;
+$standard-element-padding-y: 16px;
+$standard-element-padding: $standard-element-padding-y $standard-element-padding-x;
+
+$no-padding: 0;
+
+$all-nav-list-padding-x: 40px;
+$all-nav-list-padding-y: 15px;
+$all-nav-list-padding: $all-nav-list-padding-y $all-nav-list-padding-x;
+
+$no-padding: 0;
+
+// margin:
+$standard-element-margin-x: 10px;
+$standard-element-margin-y: 20px;
+$standard-element-margin: $standard-element-margin-y $standard-element-margin-x;
+
+$standard-h-margin-top: 20px;
+
+$margin-20px: 20px;
+
+$no-margin: 0;
+
+// height::
+$basic-nav-height: 100px;
+
+// transition:
+$transition: 0.3s;
+
+// Media
+$media-mobile: 768px;
+$media-lg: 992px;
+$media-xl: 1200px;

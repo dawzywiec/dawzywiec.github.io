@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota&family=Roboto&display=swap");
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bg-blue {
+  background-color: #1ba4ce;
+  color: #fff;
+}
+
+#main-photo {
+  position: absolute;
+  max-width: 45vw;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+nav .basic-nav-container {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: red;
+  max-height: 100px;
+}
+
+nav .basic-nav-container .basic-nav-logo {
+  padding: 0 5%;
+  background-color: blue;
+}
+
+nav .basic-nav-container .basic-nav-logo a {
+  background-color: royalblue;
+}
+
+nav .basic-nav-container .basic-nav-logo a img {
+  max-height: 100px;
+  background-color: darkblue;
+}
+
+nav .basic-nav-container .basic-nav-menu .basic-nav-button {
+  line-height: 100px;
+  text-align: right;
+}
+
+nav .basic-nav-container .basic-nav-menu .basic-nav-button i {
+  font-size: 15px;
+}
+
+nav .basic-nav-container .basic-nav-menu .basic-nav-list {
+  padding: 0;
+  display: none;
+}
+
+nav .basic-nav-container .basic-nav-menu .basic-nav-list a {
+  text-decoration: none;
+}
+
+nav .basic-nav-container .basic-nav-menu .basic-nav-list a .basic-nav-list-element {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: right;
+  text-transform: uppercase;
+  list-style-type: none;
+  padding: 15px 35px;
+}
+
+header {
+  max-width: 75vw;
+  padding: 5% 20%;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  background-image: url(../img/header-flowers.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+
+header .header-name {
+  font-family: "Bellota", cursive;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+header h1 {
+  margin: 20px 0;
+  font-family: "Bellota", cursive;
+  font-size: 50px;
+}
+
+header .header-text {
+  font-size: 15px;
+}
+
+header .header-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+}
+/*# sourceMappingURL=basic.css.map */

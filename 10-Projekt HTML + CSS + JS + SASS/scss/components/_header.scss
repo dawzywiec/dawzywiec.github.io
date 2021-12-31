@@ -1,0 +1,60 @@
+.background-header-img {z-index: -1;
+    position:absolute;
+    top: 20%;
+    left: -20px;
+    width: 20%;
+    max-height: 40%;
+    object-fit: contain;
+}
+
+.header {
+    margin-top: $basic-nav-height;
+    width: 100%;
+    padding: $mobile-sections-padding;
+    position: relative;
+    font-family: $font-family-roboto;
+    padding: $mobile-sections-padding;
+
+    .p-above-h {
+        font-family: $font-faily-bellota;
+        text-align: left;
+    }
+
+    h1 {
+        margin: $standard-h-margin-top 0;
+        font-family: $font-faily-bellota;
+        font-size: $main-h-font-size;
+        color: $dark-grey;
+    }
+
+    .header-text {
+        text-align: left;
+        font-size: $nav-font-size;
+    }
+
+    .header-buttons {
+        display: flex;
+        font-size: $basic-font-size;
+    }
+}
+
+@media (min-width: $media-mobile) {
+    .header {
+        width: 75%;
+        padding: $small-sections-padding;
+    }
+}
+
+@media (min-width: $media-lg) {
+    .header {
+        width: 65%;
+        padding: $medium-sections-padding;
+    }
+}
+
+@media (min-width: $media-xl) {
+    .header {
+        width: 70%;
+        padding: $standard-sections-padding;
+    }
+}
